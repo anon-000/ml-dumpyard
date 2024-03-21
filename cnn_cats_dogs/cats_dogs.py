@@ -51,9 +51,9 @@ test_generator = test_datagen.flow_from_directory(
     class_mode='binary')
 
 history = model.fit(train_generator,
-                              epochs=15,
-                              verbose=1,
-                              validation_data=test_generator)
+                    epochs=15,
+                    verbose=1,
+                    validation_data=test_generator)
 
 model.save('cats_dogs_model.h5')
 
@@ -83,6 +83,3 @@ plt.figure()
 plt.plot(epochs, loss, 'r', "Training Loss")
 plt.plot(epochs, val_loss, 'b', "Validation Loss")
 plt.figure()
-
-
-

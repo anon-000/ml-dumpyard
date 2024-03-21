@@ -6,4 +6,11 @@ cnn_cats_dogs/dataset
 **/*.h5
 
 
+*.png
+**/*.png
 
+*.jpg
+**/*.jpg
+
+*.jpeg
+**/*.jpeg
